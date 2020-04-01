@@ -7,5 +7,7 @@ public class Main {
         //Instancia = a crear un objeto
         Jaguar jaguar = new Jaguar(10,10F);
         System.out.println(jaguar);
+        jaguar.comer();
+        jaguar.dormir();
     }
 }
