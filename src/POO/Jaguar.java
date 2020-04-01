@@ -32,6 +32,16 @@ public class Jaguar extends Animal implements Felino{
     }
 
     @Override
+    public void dormir() {
+        System.out.println("El jaguar duerme");
+    }
+
+    @Override
+    public void comer() {
+        System.out.println("El jaguar come");
+    }
+
+    @Override
     public void rugir() {
         System.out.println("El jaguar ruge!");
     }
