@@ -9,5 +9,9 @@ public class Main {
         System.out.println(jaguar);
         jaguar.comer();
         jaguar.dormir();
+
+        jaguar.cazar();
+        jaguar.rugir();
+        jaguar.maullar();
     }
 }
